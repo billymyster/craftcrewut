@@ -493,7 +493,7 @@ height: 60%;
 }
 
 .footer-instagram {
-    width: clamp(70px, 12vw, 140px);
+    width: clamp(150px, 15vw, 300px);
     height: auto;
 
     display: block;
@@ -518,27 +518,10 @@ footer {
 }
 
 .copyright {
-    margin-top: -15px;
+    margin-top: -30px;
     font-size: 0.8rem;
     color: rgba(0,0,0,.65);
     font-family: Arial, sans-serif;
-}
-
-.instagram-overlay {
-    position: absolute;
-
-    left: 0%;
-    top: 44%;
-
-    width: clamp(70px, 18%, 220px);
-
-    z-index: 100;
-}
-
-.instagram-badge {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 #top,
