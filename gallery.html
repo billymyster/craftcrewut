@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Craft Crew | Mobile Craft Party Bus</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <div class="logo">
+  <a href="index.html">
+    <img src="images/logo.png" alt="The Craft Crew Logo">
+  </a>
+</div>
+    </div>
+<div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
+
+<nav class="nav" id="nav-menu">
+    <a href="works.html">HOW IT WORKS</a>
+    <a href="pricing.html">PACKAGES & PRICING</a>
+    <a href="crafts.html">CRAFTS</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+  </header>
+
+      <img src="images/gallery.png" alt="Gallery" class="full-page-image">
+
+    <a href ="https://thecraftcrew.square.site/" class="book-now-btn" target="_blank">BOOK NOW!</a>
+    <script>
+const menuToggle = document.getElementById('menu-toggle');
+const navMenu = document.getElementById('nav-menu');
+
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});
+</script>
+  </main>
+
+  <footer>
+
+    <div class="footer-content">
+
+        <a href="https://www.instagram.com/craftcrewut/"
+           target="_blank"
+           class="instagram-footer-link">
+
+            <img src="images/instagram.png"
+                 alt="Follow The Craft Crew on Instagram"
+                 class="footer-instagram">
+
+        </a>
+
+    </div>
+<div class="copyright">
+    © <script>document.write(new Date().getFullYear())</script>
+    The Craft Crew. All Rights Reserved.
+</div>    
+</footer>
+</body>
+</html>

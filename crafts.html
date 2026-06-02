@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Craft Crew | Mobile Craft Party Bus</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <div class="logo">
+  <a href="index.html">
+    <img src="images/logo.png" alt="The Craft Crew Logo">
+  </a>
+</div>
+    </div>
+<div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
+
+<nav class="nav" id="nav-menu">
+    <a href="works.html">HOW IT WORKS</a>
+    <a href="pricing.html">PACKAGES & PRICING</a>
+    <a href="crafts.html">CRAFTS</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+  </header>
+
+    <div class="craft-picker">
+        <section id="top">
+
+    <img src="images/crafts.png" alt="Pick Your Project" class="full-page-image">
+
+    <a href="#picture-frame" class="craft-link frame"></a>
+
+    <a href="#lantern" class="craft-link lantern"></a>
+
+    <a href="#slime" class="craft-link slime"></a>
+
+    <a href="#texture" class="craft-link texture"></a>
+
+    <a href="#cactus" class="craft-link cactus"></a>
+
+    <a href="#door-sign" class="craft-link door-sign"></a>
+
+    </section>
+
+</div>
+
+<section id="picture-frame">
+    <img src="images/pictureframe.png">
+</section>
+
+<section id="lantern">
+    <img src="images/lantern.png">
+</section>
+
+<section id="slime">
+    <img src="images/slime.png">
+</section>
+
+<section id="texture">
+    <img src="images/painting.png">
+</section>
+
+<section id="cactus">
+    <img src="images/cacti.png">
+</section>
+
+<section id="door-sign">
+    <img src="images/doorsign.png">
+</section>
+    <a href ="https://thecraftcrew.square.site/" class="book-now-btn" target="_blank">BOOK NOW!</a>
+    <a href="#top" class="back-to-top">BACK TO TOP</a>
+        <script>
+const menuToggle = document.getElementById('menu-toggle');
+const navMenu = document.getElementById('nav-menu');
+
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});
+</script>
+
+  <footer>
+
+    <div class="footer-content">
+
+        <a href="https://www.instagram.com/craftcrewut/"
+           target="_blank"
+           class="instagram-footer-link">
+
+            <img src="images/instagram.png"
+                 alt="Follow The Craft Crew on Instagram"
+                 class="footer-instagram">
+
+        </a>
+
+    </div>
+<div class="copyright">
+    © <script>document.write(new Date().getFullYear())</script>
+    The Craft Crew. All Rights Reserved.
+</div>    
+</footer>
+</body>
+</html>
